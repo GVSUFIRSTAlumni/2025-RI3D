@@ -93,8 +93,8 @@ public class Elevator extends SubsystemBase {
 
         if (messageNum >= 50)
         {
-            System.out.printf("attempting to output %f\n", outputSpeed);
-            System.out.printf("Encoder: %.4f", m_externalEncoder.getPosition());
+            // System.out.printf("Attempting to output to elevator: %f\n", outputSpeed);
+            // System.out.printf("Alternate Elevator Encoder: %.4f\n", m_externalEncoder.getPosition());
             messageNum = 0;
         }
         else

@@ -25,6 +25,7 @@ public class ElevatorUpOverride extends Command {
   @Override
   public void execute()
   {
+    // System.out.println("Elevator up override");
     m_elevator.overrideUp();
   }
 

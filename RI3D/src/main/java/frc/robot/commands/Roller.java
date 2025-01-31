@@ -28,7 +28,7 @@ public class Roller extends Command {
     @Override
     public void execute() {
         m_roller.setVelocity(0.5);
-        System.out.println("THEY'RE TAKING THE HOBBITS TO ISENGUARD!!");
+        // System.out.println("THEY'RE TAKING THE HOBBITS TO ISENGUARD!!");
     }
 
     // Called once the command ends or is interrupted.

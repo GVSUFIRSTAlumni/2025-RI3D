@@ -198,6 +198,6 @@ public class SwerveModule {
         m_steerMotor.setVoltage(m_steerPID.calculate(getAngle()));
     }
     public void ReZero(){
-        m_steerEncoder.setPosition(getAbsEncoderPos());   
+        m_steerEncoder.setPosition(getAbsEncoderPos() + 90);   
     }
 }
